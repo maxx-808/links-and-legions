@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Landing from "./Pages/Landing";
 
 function App() {
+  const page = window.location.pathname;
+  console.log(page);
   return (
     <div className="App">
       <Router>
