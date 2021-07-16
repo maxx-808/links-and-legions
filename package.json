@@ -1,0 +1,31 @@
+{
+  "name": "3_maplestory_linklegion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "concurrently": "^6.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postBuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxx-808/links-and-legions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxx-808/links-and-legions/issues"
+  },
+  "homepage": "https://github.com/maxx-808/links-and-legions#readme"
+}
