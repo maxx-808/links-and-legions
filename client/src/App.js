@@ -3,6 +3,7 @@ import React from "react";
 import axios from "axios";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+import Nav from "./Components/Navbar/Nav";
 import Landing from "./Pages/Landing";
 import About from "./Pages/About";
 
@@ -11,6 +12,7 @@ function App() {
   console.log(page);
   return (
     <div className="App">
+      <Nav />
       <Router>
         <Switch>
           <Route exact path="/" component={Landing} />

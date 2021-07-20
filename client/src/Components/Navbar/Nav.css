@@ -1,0 +1,26 @@
+#rightNav {
+  margin-right: 10px !important;
+}
+
+.dropDownNavItems {
+  font-size: 14px !important;
+}
+
+.dropDownNavPieces {
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+.nav-link,
+.navbar-brand {
+  color: black !important;
+}
+
+nav {
+  padding: 8px;
+  background-color: grey;
+}
