@@ -9,7 +9,7 @@ const Nav = (props) => {
   return (
     <div className="navbars">
       <nav className="navbar navbar-expand-lg">
-        <a className="navbar-brand" href="/landing">
+        <a className="navbar-brand" href="/">
           Links and Legions
         </a>
         <button
