@@ -23,7 +23,7 @@ const About = () => {
         </li>
         <li>
           My username: my main is shiroyvki (fame me if you see me :D ill try to
-          do the same !xD)
+          do the same lul)
         </li>
         <li>Guild: kaiza</li>
         <li>Alliance: Champions</li>

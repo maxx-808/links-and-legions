@@ -35,7 +35,7 @@ const Landing = () => {
         current timezone is HST which is 3 hours behind PST. I am on my computer
         most of the time right now so that shouldn't be too much of a problem.
       </h3>
-      <h1>
+      <h2>
         Disclaimer: I don't plan on making any money off of this application in
         the scope of my current path plan. Also, Maplestory, if there is
         anything here that really can't be used or if there is anything you'd
@@ -43,7 +43,7 @@ const Landing = () => {
         this purely for people like me who love the game and want to help out
         everyone to continue to grow. I also have no knowledge of anything on
         here being unable to be used.
-      </h1>
+      </h2>
     </div>
   );
 };
