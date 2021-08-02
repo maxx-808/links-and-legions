@@ -1,0 +1,11 @@
+{"adele":{"stat":"str", "characterType":["flora", "warrior"], "link":"boss damage: +2-4%. increases damage by 1-2% up to 4-8 % for each party member including yourself on the same map", "legion":"str + 20-100", "linkLevel":"false", "special":"false", "linkReason":"great for bossing", "legionReason":"for str characters", "tierNum":""},
+"phantom":{"stat":"dex", "characterType":["archer"],"link":"critical rate: +10/15/20%","legion":"dex + 20-100","linkLevel":"true","special":"","linkReason":"great to get up to 100% crit rate (frees up legion board, hyper skills, and potential lines to go for other things","legionReason":"","tierNum":""},
+"3":{"stat":"", "characterType":[],"link":"","legion":"","linkLevel":"","special":"","linkReason":"","legionReason":"","tierNum":""},
+"4":{"stat":"", "characterType":[],"link":"","legion":"","linkLevel":"","special":"","linkReason":"","legionReason":"","tierNum":""},
+"5":{"stat":"", "characterType":[],"link":"","legion":"","linkLevel":"","special":"","linkReason":"","legionReason":"","tierNum":""},
+"6":{"stat":"", "characterType":[],"link":"","legion":"","linkLevel":"","special":"","linkReason":"","legionReason":"","tierNum":""},
+"7":{"stat":"", "characterType":[],"link":"","legion":"","linkLevel":"","special":"","linkReason":"","legionReason":"","tierNum":""},
+"8":{"stat":"", "characterType":[],"link":"","legion":"","linkLevel":"","special":"","linkReason":"","legionReason":"","tierNum":""},
+"9":{"stat":"", "characterType":[],"link":"","legion":"","linkLevel":"","special":"","linkReason":"","legionReason":"","tierNum":""},
+"10":{"stat":"", "characterType":[],"link":"","legion":"","linkLevel":"","special":"","linkReason":"","legionReason":"","tierNum":""},
+"11":{"stat":"", "characterType":[],"link":"","legion":"","linkLevel":"","special":"","linkReason":"","legionReason":"","tierNum":""}}
