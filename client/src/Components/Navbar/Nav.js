@@ -36,6 +36,11 @@ const Nav = (props) => {
                 About Me
               </a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/char">
+                Characters
+              </a>
+            </li>
             {/* <li className="nav-item">
               <a className="nav-link" href=""></a>
             </li> */}

@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Nav from "./Components/Navbar/Nav";
 import Landing from "./Pages/Landing";
 import About from "./Pages/About";
+import Characters from "./Pages/Characters";
 
 function App() {
   const page = window.location.pathname;
@@ -17,6 +18,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Landing} />
           <Route path="/about" component={About} />
+          <Route path="/char" component={Characters} />
         </Switch>
       </Router>
     </div>
