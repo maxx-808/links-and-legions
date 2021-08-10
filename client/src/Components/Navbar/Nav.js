@@ -37,10 +37,40 @@ const Nav = (props) => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/char">
+              <a className="nav-link" href="/char_quick">
                 Characters
               </a>
             </li>
+
+            <li className="nav-item dropdown">
+              <span
+                className="nav-link dropdown-toggle"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Character Tables
+              </span>
+              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a className="dropdown-item" href="/char">
+                  All Character Data
+                </a>
+                <a className="dropdown-item" href="/char_links">
+                  Characters Link Skills
+                </a>
+                <a className="dropdown-item" href="/char_legion">
+                  Characters Legion
+                </a>
+                {/* <div className="dropdown-divider"></div> */}
+                <a className="dropdown-item" href="/char_notes">
+                  Character Notes
+                </a>
+                {/* <a className="dropdown-item" href=""></a> */}
+              </div>
+            </li>
+
             {/* <li className="nav-item">
               <a className="nav-link" href=""></a>
             </li> */}

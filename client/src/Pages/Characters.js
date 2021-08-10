@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../App.css";
-import axios from "axios";
+import getCharacters from "../Components/GetCharacters/getCharacters";
 
 const Characters = () => {
   const page = useState({ page: "characters" });
@@ -10,23 +10,29 @@ const Characters = () => {
 
   useEffect(() => {
     (async () => {
-      try {
-        let cancelToken = axios.CancelToken;
-        let source = cancelToken.source();
-        try {
-          const all = await axios.get("/api/characters", {
-            cancelToken: source.token,
-          });
-          setCharacters(all.data);
-        } catch (err) {
-          axios.isCancel(err)
-            ? console.log("Request cancelled")
-            : console.log("getChars", err);
-        }
-      } catch (err) {
-        console.log("useEffect err", err);
-      }
+      const res = await getCharacters();
+      setCharacters(res.data);
     })();
+
+    //previous code from component GetCharacters
+    // (async () => {
+    //   try {
+    //     let cancelToken = axios.CancelToken;
+    //     let source = cancelToken.source();
+    //     try {
+    //       const all = await axios.get("/api/characters", {
+    //         cancelToken: source.token,
+    //       });
+    //       setCharacters(all.data);
+    //     } catch (err) {
+    //       axios.isCancel(err)
+    //         ? console.log("Request cancelled")
+    //         : console.log("getChars", err);
+    //     }
+    //   } catch (err) {
+    //     console.log("useEffect err", err);
+    //   }
+    // })();
   }, []);
   return (
     <div className="page">
