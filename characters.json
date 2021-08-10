@@ -26,7 +26,7 @@
 {"name":"Cadena","stat":"luk", "characterType":[],"link":"","legion":"","linkLevel":"", "linkReason":"","legionReason":"","tierNum":"", "notes":[]},
 {"name":"Pathfinder","stat":"dex", "characterType":[],"link":"","legion":"","linkLevel":"", "linkReason":"","legionReason":"","tierNum":"", "notes":[]},
 {"name":"Dawn Warrior","stat":"str", "characterType":[],"link":"","legion":"","linkLevel":"", "linkReason":"","legionReason":"","tierNum":"", "notes":[]},
-{"name":"Demon Avenger","stat":"hp (str secondary stat)", "characterType":[],"link":"","legion":"","linkLevel":"", "linkReason":"","legionReason":"","tierNum":"", "notes":[]},
+{"name":"Demon Avenger","stat":"hp (str secondary)", "characterType":[],"link":"","legion":"","linkLevel":"", "linkReason":"","legionReason":"","tierNum":"", "notes":[]},
 {"name":"Demon Slayer","stat":"str", "characterType":[],"link":"","legion":"","linkLevel":"", "linkReason":"","legionReason":"","tierNum":"", "notes":[]},
 {"name":"Hayato","stat":"str", "characterType":[],"link":"","legion":"","linkLevel":"", "linkReason":"","legionReason":"","tierNum":"", "notes":[]},
 {"name":"Kaiser","stat":"str", "characterType":[],"link":"","legion":"","linkLevel":"", "linkReason":"","legionReason":"","tierNum":"", "notes":[]},
