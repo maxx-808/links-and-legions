@@ -34,11 +34,9 @@ const Characters = () => {
         <thead>
           <tr>
             <th>Name</th>
-            <th>Stat</th>
+            <th className="stat">Stat</th>
             <th>Link</th>
-            <th>Link Reasoning</th>
             <th>Legion</th>
-            <th>Legion Reasoning</th>
           </tr>
         </thead>
         <tbody>
@@ -47,9 +45,7 @@ const Characters = () => {
               <td>{character.name}</td>
               <td>{character.stat}</td>
               <td>{character.link}</td>
-              <td>{character.linkReason}</td>
               <td>{character.legion}</td>
-              <td>{character.legionReason}</td>
             </tr>
           ))}
         </tbody>
