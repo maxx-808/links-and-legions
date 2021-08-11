@@ -8,6 +8,8 @@ import Landing from "./Pages/Landing";
 import About from "./Pages/About";
 import Characters from "./Pages/Characters";
 import CharacterLinks from "./Pages/CharacterLinks";
+import CharacterLegion from "./Pages/CharacterLegion";
+import CharacterNotes from "./Pages/CharacterNotes";
 
 function App() {
   const page = window.location.pathname;
@@ -21,6 +23,8 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/char" component={Characters} />
           <Route path="/char_links" component={CharacterLinks} />
+          <Route path="/char_legion" component={CharacterLegion} />
+          <Route path="/char_notes" component={CharacterNotes} />
         </Switch>
       </Router>
     </div>
