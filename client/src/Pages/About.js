@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "../App.css";
+import CharacterPhoto from "../appImages/CharacterPhoto.png";
 
 const About = () => {
   const page = useState({ page: "about" });
   return (
-    <div className="page">
+    <div className="page" id="about">
       <div id="aboutSection">
         <h1>A lil information about me :D</h1>
         <h4>Maplestory:</h4>
@@ -56,6 +57,7 @@ const About = () => {
           </li>
         </ul>
       </div>
+      <img src={CharacterPhoto} id="aboutCharPhoto"></img>
     </div>
   );
 };
