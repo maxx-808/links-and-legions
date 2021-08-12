@@ -64,6 +64,29 @@ td {
 
 #aboutSection {
   text-align: left;
+  line-height: 30px;
+  margin-top: 40px;
   margin-left: 50px;
-  width: 800px;
+  margin-right: 20px;
+  width: 1000px;
+  float: left;
+}
+
+#aboutCharPhoto {
+  float: right;
+  margin-top: 60px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#landing {
+  margin: 20px;
+}
+
+.landingBlurbs {
+  text-align: left;
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
 }
