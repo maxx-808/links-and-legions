@@ -10,6 +10,7 @@ import Characters from "./Pages/Characters";
 import CharacterLinks from "./Pages/CharacterLinks";
 import CharacterLegion from "./Pages/CharacterLegion";
 import CharacterNotes from "./Pages/CharacterNotes";
+import CharacterQuick from "./Pages/CharacterQuick";
 
 function App() {
   const page = window.location.pathname;
@@ -25,6 +26,7 @@ function App() {
           <Route path="/char_links" component={CharacterLinks} />
           <Route path="/char_legion" component={CharacterLegion} />
           <Route path="/char_notes" component={CharacterNotes} />
+          <Route path="/char_quick" component={CharacterQuick} />
         </Switch>
       </Router>
     </div>
