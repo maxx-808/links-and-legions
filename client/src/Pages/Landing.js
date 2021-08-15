@@ -36,6 +36,8 @@ const Landing = () => {
           in the message box. I will try to get to any emails as soon as
           possible. My current timezone is HST. I am on my computer most of the
           time right now so that shouldn't be too much of a problem.
+          <br />
+          <br />
           <strong>Disclaimer:</strong> I don't plan on making any money off of
           this application in the scope of my current path plan. Also,
           Maplestory, if there is anything here that really can't be used or if
