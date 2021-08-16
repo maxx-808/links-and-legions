@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Nav from "./Components/Navbar/Nav";
 import Landing from "./Pages/Landing";
+import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Characters from "./Pages/Characters";
 import CharacterLinks from "./Pages/CharacterLinks";
@@ -21,6 +22,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={Landing} />
+          <Route path="/home" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/char" component={Characters} />
           <Route path="/char_links" component={CharacterLinks} />

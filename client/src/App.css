@@ -79,11 +79,11 @@ td {
   margin-right: 3%;
 }
 
-#landing {
+.page {
   margin: 20px;
 }
 
-.landingBlurbs {
+.blurbs {
   text-align: left;
   width: 40%;
   float: left;
