@@ -38,5 +38,9 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000"
+  "proxy": "http://localhost:5000",
+  "devDependencies": {
+    "electron": "^14.0.0",
+    "electron-is-dev": "^2.0.0"
+  }
 }
