@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./Nav.css";
 
 const Nav = (props) => {
+  const click = () => {
+    console.log("clicked");
+  };
   useEffect(() => {
     //if statements to highlight page location on navbar
   });
@@ -84,6 +87,12 @@ const Nav = (props) => {
               </li>
             </ul>
           </div>
+        </div>
+        <div className="search-container">
+          <input type="text" placeholder="character name" />
+          <button className="searchBtn" type="button" onClick={click}>
+            search
+          </button>
         </div>
       </nav>
     </div>

@@ -24,3 +24,7 @@ nav {
   padding: 8px;
   background-color: #50394c;
 }
+
+.searchBtn {
+  margin: 3px !important;
+}
