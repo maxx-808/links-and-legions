@@ -17,18 +17,14 @@ const About = () => {
             wanted to play this class based off the aesthetic of the skill set
             before I knew anything about how good she was.
           </li>
-          <li>Level: 227 (as of August 9, 2021)</li>
-          <li>I have been playing Maplestory starting around mid May 2021</li>
-          <li>
-            My first character was Dual Blade which I played till 200 and neo
-            tera event came along
-          </li>
+          <li>Level: 235 (as of September 23, 2021)</li>
+          <li>I have been playing Maplestory since around mid May 2021</li>
           <li>
             My username: my main is shiroyvki (fame me if you see me :D ill try
             to do the same lul)
           </li>
           <li>Guild: Kaiza</li>
-          <li>Alliance: Champions</li>
+          <li>Alliance: Eggrolls</li>
           <li>
             If you got cash items to sell it wouldn't hurt to see if i'd be
             interested :D . A big reason I started Maplestory was because of how
